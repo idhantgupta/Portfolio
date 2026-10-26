@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Idhant Gupta - AI-ML Engineer & Creative Developer. Portfolio showcasing intelligent solutions, machine learning projects, and interactive applications.">
+    <title>Idhant Gupta | AI-ML Engineer Portfolio</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot.css">
+  </head>
+  <body>
+    <!-- Ambient Background Glows -->
+    <div class="bg-mesh" aria-hidden="true">
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+      <div class="glow-orb orb-3"></div>
+    </div>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-content">
+        <div class="header-top-bar">
+          <div class="status-badge">
+            <span class="status-indicator"></span>
+            <span class="status-text">Available for AI-ML Roles & Projects</span>
+          </div>
+
+          <button id="themeToggle" type="button" aria-pressed="false" title="Toggle theme">
+            <span class="theme-icon" aria-hidden="true">
+              <svg class="sun-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+              <svg class="moon-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </span>
+            <span class="theme-label">Switch to Dark Mode</span>
+          </button>
+        </div>
+
+        <p class="eyebrow">AI-ML Engineer</p>
+        <h1>Idhant Gupta</h1>
+        <p class="hero-tagline">Crafting intelligent algorithms, neural solutions, and modern software systems with high performance and human-centric design.</p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="hero-btn hero-btn-primary">
+            <span>Explore Projects</span>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+          </a>
+          <a href="#aiChatSection" class="hero-btn hero-btn-secondary">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            <span>Ask AI Assistant</span>
+          </a>
+          <a href="https://github.com/idhantgupta" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-ghost" title="View GitHub profile">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">6+</span>
+            <span class="stat-desc">Projects Built</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">AI / ML</span>
+            <span class="stat-desc">Core Specialization</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">JECRC</span>
+            <span class="stat-desc">University B.Tech</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </nav>
+
+    <main id="main-content" tabindex="-1">
+      <section id="about" aria-labelledby="about-heading">
+        <div class="section-header">
+          <span class="section-tag">01 / Profile</span>
+          <h2 id="about-heading">About</h2>
+        </div>
+        <div class="about-card">
+          <div class="about-lead">
+            <div class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>
+            <div class="about-body">
+              <p>
+              I am an AI-ML engineer with a passion for creating intelligent and innovative solutions. I am a quick learner and I am always looking to improve my skills.
+              </p>
+            </div>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-pill">
+              <span class="pill-dot"></span>
+              <span>Machine Learning & Neural Architectures</span>
+            </div>
+            <div class="highlight-pill">
+              <span class="pill-dot"></span>
+              <span>Full-Stack Web Development</span>
+            </div>
+            <div class="highlight-pill">
+              <span class="pill-dot"></span>
+              <span>Problem Solving & Algorithmic Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-heading">
+        <div class="section-header">
+          <span class="section-tag">02 / Capabilities</span>
+          <h2 id="skills-heading">Skills</h2>
+        </div>
+        <p class="section-subtext">Technologies, languages, and developer tools in active rotation across projects:</p>
+        <ul class="skills-grid">
+          <li data-skill="html"><span class="skill-icon">&lt;/&gt;</span><span>HTML</span></li>
+          <li data-skill="css"><span class="skill-icon">🎨</span><span>CSS</span></li>
+          <li data-skill="javascript"><span class="skill-icon">⚡</span><span>JavaScript</span></li>
+          <li data-skill="react"><span class="skill-icon">⚛️</span><span>React</span></li>
+          <li data-skill="nodejs"><span class="skill-icon">🟢</span><span>Node.js</span></li>
+          <li data-skill="mongodb"><span class="skill-icon">🍃</span><span>MongoDB</span></li>
+          <li data-skill="express"><span class="skill-icon">🚂</span><span>Express</span></li>
+          <li data-skill="git"><span class="skill-icon">🔀</span><span>Git</span></li>
+          <li data-skill="github"><span class="skill-icon">🐙</span><span>GitHub</span></li>
+          <li data-skill="vscode"><span class="skill-icon">💻</span><span>VS Code</span></li>
+          <li data-skill="terminal"><span class="skill-icon">⌨️</span><span>Terminal</span></li>
+          <li data-skill="commandline"><span class="skill-icon">❯_</span><span>Command Line</span></li>
+        </ul>
+      </section>
+
+      <section id="education" aria-labelledby="education-heading">
+        <div class="section-header">
+          <span class="section-tag">03 / Academics</span>
+          <h2 id="education-heading">Education</h2>
+        </div>
+        <article class="education-card">
+          <div class="education-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          </div>
+          <div class="education-content">
+            <div class="education-meta">
+              <span class="education-degree">Bachelor of Technology (B.Tech)</span>
+              <span class="education-status">In Progress</span>
+            </div>
+            <p class="education-prompt">Persuing btech from JECRC University</p>
+            <p class="education-details">Focusing on Artificial Intelligence, Machine Learning algorithms, and foundational computer science principles.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="section-header">
+          <span class="section-tag">04 / Portfolio</span>
+          <h2 id="projects-heading">Projects</h2>
+        </div>
+        
+        <div class="project-filters">
+          <div class="filter-group filter-search">
+            <label for="projectSearch">Search projects</label>
+            <div class="search-input-wrapper">
+              <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" /></svg>
+              <input
+                id="projectSearch"
+                type="search"
+                placeholder="Search by project name or technology..."
+                autocomplete="off"
+              >
+            </div>
+          </div>
+          
+          <div class="filter-group filter-dropdown">
+            <label for="technologyFilter">Filter by technology or topic</label>
+            <div class="select-wrapper">
+              <select id="technologyFilter">
+                <option value="">All technologies</option>
+                <option value="python">Python</option>
+                <option value="books">Books</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="quiz">Quiz</option>
+                <option value="interactive">Interactive</option>
+                <option value="bug-fixing">Bug Fixing</option>
+                <option value="cursorai">Cursor AI</option>
+              </select>
+              <svg class="dropdown-chevron" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+        </div>
+
+        <p id="projectResults" class="project-results" role="status" aria-live="polite"></p>
+
+        <ul class="projects">
+          <li data-tags="python">
+            <div class="project-card-header">
+              <span class="project-folder-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              </span>
+              <a href="https://github.com/idhantgupta/factorial-code" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Python Programs Collection repository">
+                <span class="link-text">Python Programs Collection</span>
+                <svg class="external-arrow" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
+              </a>
+            </div>
+            <p> A collection of basic Python programs.</p>
+            <ul class="project-technologies" aria-label="Technologies: Python">
+              <li>Python</li>
+            </ul>
+          </li>
+
+          <li data-tags="books">
+            <div class="project-card-header">
+              <span class="project-folder-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </span>
+              <a href="https://github.com/idhantgupta/reading-list-app" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Reading List App repository">
+                <span class="link-text">Reading List App</span>
+                <svg class="external-arrow" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
+              </a>
+            </div>
+            <p> A simple application for organizing books on your reading list.</p>
+            <ul class="project-technologies" aria-label="Topics: Books">
+              <li>Books</li>
+            </ul>
+          </li>
+
+          <li data-tags="html css javascript">
+            <div class="project-card-header">
+              <span class="project-folder-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </span>
+              <a href="https://github.com/idhantgupta/Portfolio" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Portfolio Website repository">
+                <span class="link-text">Portfolio Website</span>
+                <svg class="external-arrow" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
+              </a>
+            </div>
+            <p> A portfolio website for myself.</p>
+            <ul class="project-technologies" aria-label="Technologies: HTML, CSS, JavaScript">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </li>
+
+          <li data-tags="quiz interactive">
+            <div class="project-card-header">
+              <span class="project-folder-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <a href="https://github.com/idhantgupta/Quiz" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Quiz App repository">
+                <span class="link-text">Quiz App</span>
+                <svg class="external-arrow" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
+              </a>
+            </div>
+            <p>An interactive quiz application.</p>
+            <ul class="project-technologies" aria-label="Topics: Quiz, Interactive">
+              <li>Quiz</li>
+              <li>Interactive</li>
+            </ul>
+          </li>
+
+          <li data-tags="bug-fixing">
+            <div class="project-card-header">
+              <span class="project-folder-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </span>
+              <a href="https://github.com/idhantgupta/buggy-code-fix" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Buggy Code Fix repository">
+                <span class="link-text">Buggy Code Fix</span>
+                <svg class="external-arrow" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
+              </a>
+            </div>
+            <p>A project focused on finding and fixing buggy code.</p>
+            <ul class="project-technologies" aria-label="Topics: Bug Fixing">
+              <li>Bug Fixing</li>
+            </ul>
+          </li>
+
+          <li data-tags="cursorai">
+            <div class="project-card-header">
+              <span class="project-folder-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </span>
+              <a href="https://github.com/idhantgupta/cursor-ai" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Cursor AI repository">
+                <span class="link-text">Cursor AI</span>
+                <svg class="external-arrow" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
+              </a>
+            </div>
+            <p>A Cursor AI project.</p>
+            <ul class="project-technologies" aria-label="Topics: Cursor AI">
+              <li>Cursor AI</li>
+            </ul>
+          </li>
+        </ul>
+
+        <p id="noProjects" class="no-projects" hidden>No projects match your search. Try another name or technology.</p>
+      </section>
+    </main>
+
+    <section id="aiChatSection" class="ai-chat">
+      <div class="chat-header">
+        <div class="chat-header-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"></path><path d="M12 6v6l4 2"></path></svg>
+        </div>
+        <div>
+          <h2>Ask My AI Assistant</h2>
+          <p>
+            Ask questions about this portfolio,
+            projects, and technologies.
+          </p>
+        </div>
+      </div>
+
+      <div class="chat-suggestions" aria-label="Suggested quick questions">
+        <button type="button" class="suggestion-chip" data-prompt="What projects has Idhant built?">💡 What projects has Idhant built?</button>
+        <button type="button" class="suggestion-chip" data-prompt="What technologies does Idhant know?">⚡ What technologies does Idhant know?</button>
+        <button type="button" class="suggestion-chip" data-prompt="Where is Idhant studying?">🎓 Where is Idhant studying?</button>
+      </div>
+    
+      <div
+        id="chatMessages"
+        aria-live="polite"
+      >
+        <div class="chat-message chat-assistant initial-greeting">
+          Hello! I am Idhant Gupta's portfolio assistant. Feel free to ask about his projects, skills, or studies!
+        </div>
+      </div>
+    
+      <div class="chat-controls">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Ask a question..."
+          aria-label="Ask the AI assistant a question"
+        />
+    
+        <button id="sendButton" type="button">
+          <span>Send</span>
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" /></svg>
+        </button>
+      </div>
+    
+      <p id="chatStatus" role="status"></p>
+    
+      <p class="chat-note">
+        AI chat is available during the local
+        classroom demonstration only.
+      </p>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-primary">
+        <div class="footer-contact">
+          <p class="footer-item">
+            <span class="footer-label">Email:</span>
+            <a href="mailto:idhantgupta1711@gmail.com" id="emailLink">idhantgupta1711@gmail.com</a>
+            <button type="button" id="copyEmailBtn" class="copy-btn" title="Copy email address" aria-label="Copy email address">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span class="copy-tooltip">Copy</span>
+            </button>
+          </p>
+          <p class="footer-item">
+            <span class="footer-label">GitHub:</span>
+            <a href="https://github.com/idhantgupta" target="_blank" rel="noopener noreferrer">idhantgupta</a>
+          </p>
+        </div>
+        <div class="footer-actions">
+          <a href="#main-content" class="back-to-top" aria-label="Scroll back to top">
+            <span>Back to top</span>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" /></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Idhant Gupta. Engineered with passion and precision.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
